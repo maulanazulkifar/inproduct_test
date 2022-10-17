@@ -5,7 +5,7 @@ import Commentcard from "../../components/commentcard";
 import Link from "next/link";
 import style from "./comment.module.css"
 
-const commentPage = (props) => {
+const CommentPage = (props) => {
   const [comments, setComments] = useState([])
   useEffect(() => {
     get('comments').then(res => {
@@ -37,4 +37,4 @@ const commentPage = (props) => {
   )
 }
 
-export default commentPage;
+export default CommentPage;

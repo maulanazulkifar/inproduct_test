@@ -5,7 +5,7 @@ import styles from "../../../components/sidebar/sidebar.module.css";
 import Head from "next/head";
 import Commentcard from "../../../components/commentcard";
 
-const userPage = (props) => {
+const CommentPage = (props) => {
   const router = useRouter()
   const id = router.query.id
   const [comment, setComment] = useState([])
@@ -29,4 +29,4 @@ const userPage = (props) => {
   )
 }
 
-export default userPage;
+export default CommentPage;

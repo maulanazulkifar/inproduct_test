@@ -6,7 +6,7 @@ import styles from './post.module.css'
 import Commentcard from "../../components/commentcard";
 import Link from "next/link";
 
-const postPage = (props) => {
+const PostPage = (props) => {
   const [posts, setPosts] = useState([])
   const [users, setUsers] = useState([])
   useEffect(() => {
@@ -53,4 +53,4 @@ const postPage = (props) => {
   )
 }
 
-export default postPage;
+export default PostPage;

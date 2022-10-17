@@ -6,7 +6,7 @@ import styles from "../../post.module.css"
 import Commentcard from "../../../../components/commentcard";
 import Link from "next/link";
 
-const postPage = (props) => {
+const PostPage = (props) => {
   const router = useRouter()
   const id = router.query.userId
   const [posts, setPosts] = useState([])
@@ -48,4 +48,4 @@ const postPage = (props) => {
   )
 }
 
-export default postPage;
+export default PostPage;
