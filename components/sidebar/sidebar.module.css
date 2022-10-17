@@ -1,0 +1,33 @@
+.container {
+    margin: 42px;
+    border-right: 1px solid #292929;;
+    max-width: 200px;
+    min-width: 200px;
+    min-height: 100vh;
+}
+
+.textMenu {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+.logo {
+    height: 53px;
+    margin-bottom: 74px;
+}
+
+.icon {
+    height: 30px;
+}
+.containerMenu {
+    display: flex;
+    justify-items: center;
+    gap: 10px;
+}
+.containerMenu :hover{
+    cursor: pointer;
+}
