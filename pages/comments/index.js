@@ -17,7 +17,7 @@ const CommentPage = (props) => {
   return(
     <div>
       <Head>
-        <title>User | Inaproduct Social</title>
+        <title>Comments | Inaproduct Social</title>
         <meta name="description" content="Social media untuk Inaproduct" />
         <link rel="icon" href="/favicon_inaproduct.png" />
       </Head>

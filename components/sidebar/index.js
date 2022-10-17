@@ -26,7 +26,7 @@ const Sidebar = (props) => {
       {menuList.map(menu=>
         <Link href={menu.link} key={menu.name}>
           <div className={styles.containerMenu}>
-            <img className={styles.icon} src={`/icon/${menu.icon}`} alt=""/>
+            <img className={styles.icon} src={`/icon/${menu.icon}`} alt={menu.name}/>
             <div className={styles.textMenu}>{menu.name}</div>
           </div>
         </Link>
