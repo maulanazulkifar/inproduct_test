@@ -32,7 +32,7 @@ const PostPage = (props) => {
         <meta name="description" content="Social media untuk Inaproduct" />
         <link rel="icon" href="/favicon_inaproduct.png" />
       </Head>
-      <h1>{users.name}'s Post</h1>
+      <h1>{users.name}&lsquo;s Post</h1>
       <div className={styles.containerCard}>
         {posts.map(posts =>
           <div key={posts.id}>

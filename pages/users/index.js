@@ -5,7 +5,7 @@ import Usercard from "../../components/usercard";
 import styles from './user.module.css'
 import Link from "next/link";
 
-const userPage = (props) => {
+const UserPage = (props) => {
   const [users, setUsers] = useState([])
   useEffect(() => {
    get('users').then(res => {
@@ -37,4 +37,4 @@ const userPage = (props) => {
   )
 }
 
-export default userPage;
+export default UserPage;
